@@ -2,7 +2,7 @@ CC=gcc
 
 obj=loopfile.o
 
-LIB= -L. module_std.so
+LIB= -L ./ module_std.so
 CFLAGS= -Wall -g 
 INCLUDE=
 
