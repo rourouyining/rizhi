@@ -9,6 +9,6 @@ INCLUDE=
 target=loopfile.so
 
 all:$(obj)
-	$(CC) -shared -fpic $^ -o $(target) $(LIB)
+	$(CC) -shared -fPIC $^ -o $(target) $(LIB)
 %.o:%.c
 	$(CC) $(CFLAGS) -c $< -o $@ 
